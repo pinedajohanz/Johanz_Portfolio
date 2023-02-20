@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head> 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -54,20 +54,77 @@
           <section id="home" class="full-height px-lg-5">
 
             <div class="container">
-              <div class="col-lg-8">
-                <h1 class="display-4 fw-bold">I'M A <span class="text-brand">FULL STACK WEB DEVELOPER </span> FROM CAVITE, PHILIPPINES</h1>
-                <p class="lead mt-2 mb-4">I am Johanz Robert B. Pineda, And I create responsive and bug-free web applications that satisfies my clients</p>
-                <a href="#projects" class="btn btn-brand me-3">See My Projects</a>
-                <a href="" class="link-custom">Call: 0965 683 113</a>
+              <div class="col-lg-10">
+                <h1 class="display-4 fw-bold" data-aos="zoom-in-left">I'M A <span class="text-brand">FULL STACK WEB DEVELOPER </span> FROM CAVITE, PHILIPPINES</h1>
+                <p class="lead mt-2 mb-4" data-aos="zoom-in-left" data-aos-delay="300">I am Johanz Robert B. Pineda, And I create responsive and bug-free web applications that satisfies my clients</p>
+                <div data-aos="zoom-in-left" data-aos-delay="600">
+                  <a href="#projects" class="btn btn-brand me-3">See My Projects</a>
+                  <a href="" class="link-custom">Call: 0965 683 113</a>
+                </div>
               </div>
             </div>
 
           </section>
         <!-- END //HOME -->
-        
-        <!-- SERVICES -->
 
+        <!-- SERVICES -->
+        <section id="services" class="full-height px-lg-5">
+          <div class="container">
+
+            <div class="row pb-4" data-aos="zoom-in-left">
+              <div class="col-lg-8">
+                <h6 class="text-brand">SERVICES</h6>
+                <h1>Services That I Provide</h1>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4" data-aos="zoom-in-left">
+                <div class="service p-4 bg-base rounded-5 shadow-effect">
+                  <div class="iconbox rounded-4">
+                    <i class="las la-code"></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Code</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, doloribus.</p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+
+              <div class="col-md-4" data-aos="zoom-in-left" data-aos-delay="300">
+                <div class="service p-4 bg-base rounded-5 shadow-effect">
+                  <div class="iconbox rounded-4">
+                    <i class="las la-laptop-code"></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Web Design</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, doloribus.</p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+
+              <div class="col-md-4" data-aos="zoom-in-left" data-aos-delay="600">
+                <div class="service p-4 bg-base rounded-5 shadow-effect">
+                  <div class="iconbox rounded-4">
+                    <i class="las la-server"></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Set Up Server Request</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, doloribus.</p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+        </section>
         <!-- END //SERVICES -->
+
+        <!-- PROJECTS -->
+          <section id="projects" class="full-height px-lg-5">
+            
+          </section>
+        <!-- END //PROJECTS -->
+
+
       </div>
       <!-- END //CONTENT WRAPPER -->
 
